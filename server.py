@@ -19,6 +19,7 @@ def every_three_letters():
     # change array back to string
     result = ''.join(every_three_list)
     # return result as a json object
+    # use `jsonifiy` for object or `json.dumps` for string
     return json.dumps({'return_string': result})
 
 if __name__ == '__main__':
